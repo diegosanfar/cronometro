@@ -1,0 +1,53 @@
+.host {
+  display: block;
+  text-align: center;
+}
+
+.timeLeft {
+  font-size: 2rem;
+}
+
+div ~ div {
+  margin-top: 4px;
+}
+
+button {
+  margin-left: 4px;
+  margin-bottom: 7px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+.phase0 {
+  font-weight: bolder;
+  margin-left: 8px;
+  text-shadow: #000 1px 1px 1.5px;
+  -webkit-text-fill-color: transparent;
+}
+.phase1 {
+  font-weight: bolder;
+  margin-left: 8px;
+  text-shadow: #000 1px 1px 1.5px;
+  -webkit-text-fill-color: transparent;
+}
+.phase2 {
+  font-weight: bolder;
+  margin-left: 8px;
+  text-shadow: #000 1px 1px 1.5px;
+  -webkit-text-fill-color: transparent;
+}
+
+button:hover {
+  background-color: #c5c5c5;
+  color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+:host {
+  display: inline-block;
+  border: 2px solid grey;
+  padding: 4px;
+  border-radius: 6px;
+  background-color: rgb(240, 240, 240);
+  box-shadow: -5px -10px 30px rgb(216, 202, 243),
+    6px 9px 15px rgb(191, 230, 212);
+  -webkit-box-shadow: -5px -10px 30px rgb(216, 202, 243),
+    6px 9px 15px rgb(191, 230, 212);
+  -moz-box-shadow: -5px -10px 30px rgb(216, 202, 243),
+    6px 9px 15px rgb(191, 230, 212);
+}
+
+h1 {
+  text-shadow: #000 2px 3px 2px;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  margin-bottom: -30px;
+  margin-top: -5px;
+}
+
+.right {
+  text-align: right;
+}
+
+button {
+  margin-left: 4px;
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding: 11px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #c5c5c5;
+  color: black;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  cursor: pointer;
+}
